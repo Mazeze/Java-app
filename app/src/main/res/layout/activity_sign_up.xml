@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_dynamic_primary80"
+    android:gravity="center_horizontal"
+
+
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/signUpTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="right"
+        android:text="Create Account"
+        android:textColor="@android:color/system_on_primary_fixed"
+        android:textSize="42sp" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:hint="@string/full_name"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:hint="@string/email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:hint="@string/username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="116dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="20dp"
+        android:background="@android:color/system_on_primary_fixed"
+        android:padding="25sp"
+        android:text="@string/sign_up"
+        android:textColor="@color/cardview_light_background" />
+
+</LinearLayout>
